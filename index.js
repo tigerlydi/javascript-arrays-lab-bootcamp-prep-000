@@ -24,10 +24,7 @@ function appendKitten(name) {
     const newKittens = kittens.concat(name)
     return newKittens
 }
-//or function appendKitten(name) {
-    //const newKittens = [...kittens, name]
-    //return newKittens
-//}
+
 function prependKitten(name) {
     const newKittens = [name, ...kittens]
     return newKittens
